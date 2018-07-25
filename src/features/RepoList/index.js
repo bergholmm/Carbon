@@ -1,10 +1,12 @@
-import Repolist from './RepoList';
+import RepoList from './RepoList';
 import reducer, { listRepos } from './reducer';
 
 module.exports = {
-    RepoList,
-    repoListReducer: reducer,
-    repoListActions: {
-        listRepos,
-    }
+    RepoList: {
+        component: RepoList,
+        reducer,
+        actions: {
+            listRepos,
+        },
+    },
 };

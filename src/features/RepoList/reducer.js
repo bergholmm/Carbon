@@ -19,6 +19,9 @@ export default function reducer(state = { repos: [] }, action) {
     }
 }
 
+
+// Actions
+
 export const listRepos = (user) => {
     return {
         type: GET_REPOS,

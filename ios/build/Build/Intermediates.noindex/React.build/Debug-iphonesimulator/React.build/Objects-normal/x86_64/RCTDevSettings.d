@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/bergholmm/Dev/carbon/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/bergholmm/Dev/carbon/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/bergholmm/Dev/carbon/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

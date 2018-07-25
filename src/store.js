@@ -2,12 +2,11 @@ import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { Provider, connect } from 'react-redux';
 import axios from 'axios';
 import axiosMiddleware from 'redux-axios-middleware';
-import { composeWithDevTools } from 'remote-redux-devtools';
 
-import { repoListReducer } from './features/RepoList';
+import { RepoList } from './features/RepoList';
 
 const reducers = combineReducers({
-    repoListReducer,
+    repos: RepoList.reducer,
 });
 
 const client = axios.create({
@@ -15,7 +14,4 @@ const client = axios.create({
     responseType: 'json'
 });
 
-export const store = createStore(
-    reducers, /* preloadedState, */
-    composeWithDevTools(applyMiddleware(axiosMiddleware(client)))
-);
+export const store = createStore(reducers, applyMiddleware(axiosMiddleware(client)));

@@ -5,21 +5,21 @@ import { store } from './src/store';
 import { RepoList } from './src/features/RepoList';
 
 export default class App extends Component {
-  render() {
-    return (
-      <Provider store={store}>
-        <View style={styles.container}>
-          <RepoList />
-        </View>
-      </Provider>
-    );
-  }
+    render() {
+        return (
+            <Provider store={store}>
+                <View style={styles.container}>
+                    <RepoList.component />
+                </View>
+            </Provider>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    marginTop: 50
-  }
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        marginTop: 50
+    }
 });

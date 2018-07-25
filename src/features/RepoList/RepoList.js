@@ -7,16 +7,16 @@ class RepoList extends Component {
     }
     renderItem = ({ item }) => (
         <View style={styles.item}>
-        <Text>{item.name}</Text>
+            <Text>{item.name}</Text>
         </View>
     );
     render() {
         const { repos } = this.props;
         return (
             <FlatList
-            styles={styles.container}
-            data={repos}
-            renderItem={this.renderItem}
+                styles={styles.container}
+                data={repos}
+                renderItem={this.renderItem}
             />
         );
     }
@@ -38,14 +38,14 @@ import { connect } from 'react-redux';
 import { listRepos } from './reducer';
 
 const mapStateToProps = state => {
-    let storedRepositories = state.repos.map(repo => ({ key: repo.id, ...repo }));
+    console.log(state)
     return {
-        repos: storedRepositories
+        repos: state.repos.repos.map(repo => ({ key: repo.id, ...repo })),
     };
 };
 
 const mapDispatchToProps = {
-    listRepos
+    listRepos,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(RepoList);
