@@ -38,7 +38,6 @@ import { connect } from 'react-redux';
 import { listRepos } from './reducer';
 
 const mapStateToProps = state => {
-    console.log(state)
     return {
         repos: state.repos.repos.map(repo => ({ key: repo.id, ...repo })),
     };
