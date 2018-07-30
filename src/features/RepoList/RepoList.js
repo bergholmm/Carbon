@@ -2,6 +2,22 @@ import React, { Component } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 
 class RepoList extends Component {
+    static get options() {
+        return {
+            topBar: {
+                visible: true,
+                title: {
+                    text: 'Title',
+                    fontSize: 14,
+                    color: 'red',
+                    fontFamily: 'Helvetica',
+                },
+                drawBehind: true,
+                visible: false,
+                animate: false
+            }
+        };
+    }
     componentDidMount() {
         this.props.listRepos('bergholmm');
     }
